@@ -1,0 +1,712 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+}
+
+.fix:before,
+.fix:after {
+    content: '';
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+
+/*************** Custom fonts ***********/
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+.semibold {
+    font-family: Poppins-SemiBold;
+}
+
+.exbold {
+    font-family: Poppins-ExtraBold !important;
+}
+
+.regular {
+    font-family: Poppins-Regular;
+}
+
+.bold {
+    font-family: Poppins-Bold;
+}
+
+.light {
+    font-family: Poppins-Light;
+}
+
+.exlight {
+    font-family: Poppins-ExtraLight;
+}
+
+.hdh1 {
+    color: #190066;
+    font-size: 36px;
+    font-family: Poppins-Bold;
+}
+
+.hdh2 {
+    color: #190066;
+    font-size: 30px;
+}
+
+.hdp {
+    color: #222222;
+    font-size: 16px;
+    font-family: Poppins-Light;
+}
+
+
+/********************** Header ******************/
+.header {
+    width: 100%;
+    float: left;
+    background: url(../images/headerbg.jpg);
+    background-size: cover;
+    padding: 20px 0;
+}
+
+/********************** Section******************/
+.section {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+}
+
+.logo h1 {
+    padding-top: 70px;
+}
+
+.tickcode {
+    width: 100%;
+    float: left;
+}
+
+.tickcode ul {
+    list-style-image: url(../images/redtick_03.jpg);
+    padding-left: 20px;
+}
+
+.tickcode ul li {
+    padding-top: 12px;
+    padding-left: 5px;
+    font-family: Poppins-Light;
+    color: #222222;
+    font-size: 16px;
+}
+
+.logoimg {
+    width: 100%;
+    float: left;
+    padding-top: 150px;
+}
+
+.logoimg img {
+    width: 100%;
+}
+
+.freetrial {
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.freetrial a {
+    background: #af1619;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Poppins-SemiBold;
+}
+
+.freetrial a:hover {
+    text-decoration: none;
+}
+
+/********************** Section One ******************/
+.sectionOne {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.sectionOne h2 {
+    padding-bottom: 20px;
+}
+
+.redclr {
+    color: #af1619;
+}
+
+.ancr {
+    color: #af1619;
+    font-size: 16px;
+}
+
+.ancr:hover {
+    text-decoration: none;
+    color: #af1619;
+}
+
+/********************** Section Two ******************/
+.sectionTwo {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.sectionTwoTxt {
+    width: 100%;
+    float: left;
+}
+
+.tickcode2 {
+    width: 100%;
+    float: left;
+}
+
+.tickcode2 ul {
+    list-style-image: url(../images/tick2_03.jpg);
+    padding-left: 20px;
+}
+
+.tickcode2 ul li {
+    padding-top: 12px;
+    padding-left: 5px;
+    font-family: Poppins-Light;
+    color: #222222;
+    font-size: 16px;
+}
+
+.txtbox {
+    background: #ffedeb;
+    padding: 20px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.ball {
+    width: 100%;
+    float: left;
+}
+
+/********************** Section Three ******************/
+.sectionThree {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.sec3img {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+
+.sec3img img {
+    max-width: 479px;
+    width: 100%;
+}
+
+.sec3txt {
+    width: 100%;
+    float: left;
+}
+
+.clr66 {
+    color: #190066;
+}
+
+/********************** Section Four ******************/
+.sectionFour {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.sec4txt {
+    width: 100%;
+    float: left;
+}
+
+.line-hieght {
+    line-height: 50px;
+}
+
+.font30 {
+    font-size: 30px !important;
+}
+
+.sec4img {
+    width: 100%;
+    float: left;
+}
+
+.sec4img img {
+    max-width: 475px;
+    width: 100%;
+}
+
+/********************** Section Five ******************/
+.sectionFive {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.followup {
+    width: 100%;
+    float: left;
+}
+
+.sec5txt {
+    width: 100%;
+    float: left;
+}
+
+.sec5img {
+    width: 100%;
+    float: left;
+}
+
+.sec5img img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.sec5txtimg {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.prewritten {
+    width: 100%;
+    padding-top: 40px;
+    float: left;
+}
+
+
+/********************** ONline uplone ******************/
+.onlineUpline {
+    width: 100%;
+    float: left;
+    position: relative;
+    background: #af1619;
+    display: table;
+    padding: 90px 0;
+}
+
+.onlineleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.onlineright img {
+    width: 250px;
+}
+
+.onlineright {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.getstarted {
+    width: 100%;
+    float: left;
+    padding-left: 10%;
+}
+
+.getstarted h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.getstarted p {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #f3f3f3;
+    font-family: Poppins-Regular;
+}
+
+.getstartedbtn {
+    width: 100%;
+    float: left;
+    padding-top: 35px;
+}
+
+.getstartedbtn a {
+    color: #190066;
+    font-size: 22px;
+    font-family: Poppins-SemiBold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.getstartedbtn a:hover {
+    color: #190066;
+    text-decoration: none;
+}
+
+/********************** Section Six ******************/
+.sectionSix {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fff;
+}
+
+.manage {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.manage h1 {
+    font-size: 30px;
+    color: #190066;
+    font-family: Poppins-ExtraLight;
+}
+
+.sec6img {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+
+.sec6img img {
+    width: 100%;
+    max-width: 589px;
+}
+
+.youget {
+    width: 100%;
+    float: left;
+    padding-top: 15px;
+}
+
+/********************** Section Seven ******************/
+.sectionSeven {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.sec7txt {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.sec7img {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sec7img img {
+    max-width: 367px;
+    width: 100%;
+}
+
+/********************** Section Eight ******************/
+.sectionEight {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fff;
+}
+
+.powerful {
+    width: 100%;
+    float: left;
+}
+
+.powerful h1 {
+    font-size: 30px;
+    color: #190066;
+    font-family: Poppins-ExtraLight;
+}
+
+.sec8txt {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+
+.sec8img {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+
+.sec8img img {
+    max-width: 481px;
+    width: 100%;
+}
+
+.bestof {
+    width: 100%;
+    padding-top: 30px;
+    float: left;
+}
+
+.bgblue {
+    background: #190066 !important;
+}
+
+/********************** Section Nine ******************/
+.sectionNine {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #e4dbff;
+}
+
+.sec9txt {
+    width: 100%;
+    float: left;
+}
+
+.sec9txt ul {
+    list-style-image: url(../images/tick3_03.jpg);
+    padding-left: 20px;
+}
+
+.sec9txt ul li {
+    padding-top: 12px;
+    padding-left: 5px;
+    font-family: Poppins-Light;
+    color: #222222;
+    font-size: 16px;
+}
+
+.sec9men {
+    width: 100%;
+    float: left;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.sec9men img {
+    max-width: 185px;
+    width: 100%;
+}
+
+.sec9mentxt {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+/********************** Section Ten ******************/
+.sectionTen {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    background: #fff;
+}
+
+.sec10txt {
+    width: 100%;
+    float: left;
+}
+
+.sec10txt h1 {
+    font-size: 30px;
+    color: #190066;
+    font-family: Poppins-ExtraLight;
+}
+
+.sec10img {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.sec10img img {
+    max-width: 609px;
+    width: 100%;
+}
+
+.applink {
+    position: relative;
+    left: 15px;
+}
+
+/********************** Footer ******************/
+.footer {
+    width: 100%;
+    float: left;
+    background: #000;
+    padding: 50px 0;
+}
+
+.ftlink {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.ftlink ul {
+    list-style: none;
+}
+
+.ftlink ul li {
+    display: inline-block;
+    color: #574d4d;
+}
+
+.ftlink ul li a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: Poppins-ExtraLight;
+}
+
+.ftlink ul li a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.copyright p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: Poppins-ExtraLight;
+}
+
+.copyright a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: Poppins-ExtraLight;
+}
+
+.copyright a:hover {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+/********* Custom responsive desing  ***************/
+@media screen and (max-width:767px) {
+    .header {
+        background: #fff;
+    }
+
+    .logoimg {
+        padding-top: 0;
+    }
+
+    .freetrial {
+        padding-bottom: 55px;
+    }
+
+    .logo h1 {
+        padding-top: 30px;
+    }
+
+    .ball {
+        text-align: center;
+    }
+
+    .ball img {
+        width: 90%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .sec3txt {
+        padding-top: 60px;
+    }
+
+    .sec4img {
+        padding-top: 30px;
+    }
+
+    .onlineleft {
+        display: none;
+    }
+
+    .onlineright {
+        display: none;
+    }
+
+    .getstarted {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .getstarted h1 br {
+        display: none;
+    }
+
+    .getstarted p br {
+        display: none;
+    }
+
+    .getstartedbtn {
+        text-align: center;
+    }
+
+    .sec6img {
+        padding-top: 0;
+    }
+
+    .sec9men {
+        text-align: center;
+    }
+
+    .hdh2 br {
+        display: none;
+    }
+
+}
